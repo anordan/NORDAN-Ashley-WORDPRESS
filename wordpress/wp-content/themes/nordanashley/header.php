@@ -1,17 +1,11 @@
 <html>
 <head>
-<title>IDM 6630- Wordpress Development</title>
+<title><?php echo get_bloginfo('name'); ?></title>
 <?php wp_head(); ?>
 </head>
 <body>
 <header>
-<h1>This is my website!</h1>
-    <h2>This is my tagline</h2>
-    <nav>
-    <ul>
-    <li>Home</li>
-    <li>About</li>
-    <li>Shop</li>
-    </ul>
-</nav>
+<h1><?php echo get_bloginfo('name'); ?></h1>
+    <h2><?php echo get_bloginfo('description'); ?></h2>
+  <?php get_template_part('nav'); ?>
 </header>
