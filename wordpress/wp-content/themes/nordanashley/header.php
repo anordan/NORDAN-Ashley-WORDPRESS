@@ -3,7 +3,7 @@
 <title><?php echo get_bloginfo('name'); ?></title>
 <?php wp_head(); ?>
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url');?>">
-<link href="https://fonts.googleapis.com/css?family=Raleway|Ubuntu|Monoton" rel="stylesheet">
+
 </head>
 <body>
 <header>
