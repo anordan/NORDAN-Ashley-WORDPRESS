@@ -2,7 +2,7 @@
 <head>
 <title><?php echo get_bloginfo('name'); ?></title>
 <?php wp_head(); ?>
-<link rel="stylesheet" href="<?php bloginfo('stylesheet_url');?>">
+<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 
 </head>
 <body>
