@@ -1,6 +1,6 @@
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
        <a href="<?php the_permalink(); ?>">
-       <article class="post">
+       <article <?php post_class(); ?>>
             <?php the_title('<h2>','</h2>'); ?></a>
             <?php the_content(); ?>
         </article>
