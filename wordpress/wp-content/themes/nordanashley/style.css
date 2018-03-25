@@ -4,26 +4,32 @@ Version: 1.0
 Author: Ashley Nordan
 Description: A custom theme developed in IDM 6630.
 */
+
 html {
     box-sizing: border-box;
-    background-color: grey;
 }
 
 * , *:before, *:after {
     box-sizing: inherit;
-    margin: 0 3em 0 3em;
+    margin: 0;
     padding: 0;
 }
 
 header {
-    text-align: left;
+    width: 100%;
+    text-align: center;
     font-size: 2em;
-    margin: 2em 0;
+    margin: 0;
     padding: 1em 0;
     font-family: 'Helvetica', sans-serif;
-    background-color: white;
-    color: grey;
+    background-color: #f8b195;
+    color: #fff;
     
+}
+
+body.single {
+    background-color: #355c7D;
+
 }
 
 
@@ -32,14 +38,13 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
     width: 100%;
 
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: #fff;
 }
 
 li {
@@ -51,35 +56,33 @@ li {
 }
 
 li a {
-    display: block;
-    color: white;
+    color: #f8b195;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: #355c7D;
 
 }
 
 h1 {
     font-family: 'Helvetica', sans-serif;
     font-size: 2em;
-    color: grey;
+    color: #000;
     margin-top: 1em;
+    padding: 1em;
 
 }
 
 .categories {
-    color: white;
-    background-color: lightgray;
+    color: #000;
     padding: 5px;
     width: 100%;
     font-size: 1em;
 }
 .post {
-    background-color: lightgray;
-    padding-top: 1em;
+    padding-top: 1.5em;
     
 }
 
@@ -88,9 +91,11 @@ text-decoration: none;
 }
 
 .post h2 {
+    font-family: 'Helvetica', sans-serif;
     font-size: 2em;
     color: #000;
     float: left;
+    margin-left: 1em;
 }
 
 .post p {
@@ -98,17 +103,30 @@ text-decoration: none;
     padding: 15px;
     margin: 3em;
     line-height: 1.6;
-    color: white;
+    color: #f8b195;
 }
 
 footer {
     font-family: 'Helvetica', sans-serif;
     margin: 15px;
-    color: white;
+    color: #f67280;
     clear: both;
 }
 
 h3 {
-    text-align: center;
+    font-family: 'Helvetica', sans-serif;
+    text-align: left;
+    color: #355c7D;
+}
+
+article.category-images a h2:hover {
+    color: #dff280;
+    text-decoration: none;
+}
+
+article.category-video a h2:hover {
+    color: #f67280;
+    text-decoration: none;
+
 }
 
